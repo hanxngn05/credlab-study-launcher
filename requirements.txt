@@ -1,3 +1,6 @@
+# Deployment revision: 2026-10-16-background-saves
+# Refresh this revision when changing the private source pin so Cloud rebuilds
+# the process instead of keeping imports from the previous source bundle.
 streamlit==1.63.0
 google-genai>=1.0,<2
 google-auth>=2.38,<3
