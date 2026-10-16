@@ -1,0 +1,17 @@
+[theme]
+base = "light"
+primaryColor = "#245d50"
+backgroundColor = "#f6f5f1"
+secondaryBackgroundColor = "#e9eee7"
+textColor = "#202d2a"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+# Drop disconnected WebSocket sessions instead of retaining their UI state.
+disconnectedSessionTTL = 0
