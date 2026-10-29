@@ -13,5 +13,5 @@ gatherUsageStats = false
 toolbarMode = "minimal"
 
 [server]
-# Drop disconnected WebSocket sessions instead of retaining their UI state.
-disconnectedSessionTTL = 0
+# Preserve interview widgets during brief Wi-Fi drops or laptop network changes.
+disconnectedSessionTTL = 300

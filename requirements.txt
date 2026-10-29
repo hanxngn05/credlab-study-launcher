@@ -1,9 +1,11 @@
-# Deployment revision: 2026-10-16-background-saves
+# Deployment revision: 2026-10-29-interview-stability-v32
 # Refresh this revision when changing the private source pin so Cloud rebuilds
 # the process instead of keeping imports from the previous source bundle.
 streamlit==1.63.0
-google-genai>=1.0,<2
-google-auth>=2.38,<3
-google-auth-oauthlib>=1.2,<2
-requests>=2.32,<3
-reportlab>=4.4,<5
+google-genai==1.75.0
+google-auth==2.62.0
+google-auth-oauthlib==1.5.0
+requests==2.34.2
+reportlab==4.5.1
+# Match the working Cloud runtime; pyarrow 25.0.1 has a known segfault.
+pyarrow==24.0.0
