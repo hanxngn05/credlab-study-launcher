@@ -1,4 +1,4 @@
-# Deployment revision: 2026-10-29-interview-stability-v32
+# Deployment revision: 2026-11-02-idle-polling-stability-v39
 # Refresh this revision when changing the private source pin so Cloud rebuilds
 # the process instead of keeping imports from the previous source bundle.
 streamlit==1.63.0
